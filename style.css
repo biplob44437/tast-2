@@ -1,0 +1,134 @@
+/* defoult css */
+
+body h1 ,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Roboto', sans-serif;
+
+}
+.defoult-btn {
+    margin-top: 30px;
+    transition: .45s;
+   
+}
+.defoult-btn:hover {
+    background-color: rgb(126, 31, 214);
+    border: rgb(126, 31, 214);
+}
+
+
+/*  */
+/* header css start  */
+
+.navbar-dark {
+    background-color: #2e2e30;
+}
+/* heade css end */
+/* banner css start   */
+.banner-section{
+    background: url(https://blogger.googleusercontent.com/img/a/AVvXsEgP_VNVn0Yy3PWUkdn7sb8-9iG9UH0914KHM5-OYEc2kp_9pQDpJKz02lQi1dgs5BaMjBimsV9p4zC8rk2pXR0AgrjY6ZCeqXjI3j5dNifvklmnDKHWAdUtvglVWFykJnPrFxRFwi6uLsXuW9087f5SJWprrTaryAXyJVNVg0mbT_YJ2aQLQD7-KHKYQQ=s1900) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.banner-text{}
+.banner-text h1{
+    font-size: 60px;
+    color: #fdfdfd;
+}
+.banner-text h4{
+    color: #fdfdfd;
+  font-weight: 300;
+}
+/* baner-css-end */
+/* service css start  */
+.service-icon{
+    
+    font-size: 70px;
+    color: #ffc800;
+
+
+    
+}
+/* service css end */
+/* portfolio-css */
+.portfolio-section{
+    background-color:#f8f9fa ;
+}
+
+.portfolio-img img{
+    max-width: 100%;
+    width: 400px;
+    
+   
+}
+.portfolio-shadow{
+    
+}
+.portfolio-text {
+    margin-top: 10px;
+    text-align: center;
+ 
+}
+/* portfolio-css-end */
+/* about-css start  */
+.about-img img{
+    border-radius: 50%;
+}
+/* about css end */
+/* team css start  */
+.team-section{
+    background-color: #f8f9fa;
+}
+  
+.team-img img{
+    border-radius: 50%;
+    width: 200px;
+    text-align: center;
+    margin-left: 106px;
+}
+/* team css end */
+.contact-section{
+    background: url(./img/images\ \(4\).jfif) no-repeat center ;
+    background-size: cover;
+    height: 650px;
+}
+.contact-form input{
+    width: 80%;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.61);
+    padding: 13px 28px;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+.contact-form textarea{
+    width: 80%;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.61);
+    padding: 0px 24px;
+    margin: 3px 0;
+    font-size: 11px;
+    border: 1px solid #fff;
+}
+.b{
+    background-color: #edbe24;
+    color: #666;
+    padding: 13px 32px;
+    margin: 30px 0 0 0;
+    font-size: 20px;
+    border: 1px solid #E8EAE3;
+}
+/* contact-css end */
+/* footer csss start  */
+.foooter{
+    background-color: white;
+}
+.py-3 p{
+    font-size: 15px;
+}
+
+/* responsive csss */
+@media (max-width:768px) {
+    .py-3 p {
+        font-size: 15px;
+        text-align: center;
+      }
+}
